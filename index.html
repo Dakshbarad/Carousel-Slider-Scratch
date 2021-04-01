@@ -1,0 +1,38 @@
+<!-- This is a helper project that shows how to create a carousel sliding effect without using the bootstrap 
+carousel classes, this is done entirely in vanilla js i.e only using html, css and js-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel Slider from scratch</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="carousel-container">
+      <i class="fa fa-arrow-left" id="prevBtn"></i>
+      <i class="fa fa-arrow-right" id="nextBtn"></i>
+      <div class="carousel-slide">
+        <img src="assets/bg5.jpg" id="lastClone" />
+        <img src="assets/bg1.png" />
+        <img src="assets/bg2.jpg" />
+        <img src="assets/bg3.jpg" />
+        <img src="assets/bg4.jpg" />
+        <img src="assets/bg5.jpg" />
+        <img src="assets/bg1.png" id="firstClone" />
+      </div>
+      <h1>
+        This project creates a caraousel slider that slides to next image every
+        5 seconds and also has controls that can be used to slide the images,
+        this project is created from scratch using html, css and javascript.
+      </h1>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

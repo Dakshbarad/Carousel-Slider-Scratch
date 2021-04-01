@@ -1,0 +1,70 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.carousel-container
+{
+    width: 60%;
+    position: relative;
+    margin: auto;
+    margin-top: 10rem;
+    overflow: hidden;
+}
+
+.carousel-slide
+{
+    display: flex;
+    width: 100%;
+}
+
+img
+{
+    width: 100%;
+}
+
+#prevBtn
+{
+    position: absolute;
+    top: 40%;
+    z-index: 10;
+    left: 5%;
+    font-size: 30px;
+    color: white;
+    opacity: 70%;
+    cursor: pointer;
+}
+
+#nextBtn
+{
+    position: absolute;
+    top: 40%;
+    z-index: 10;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    opacity: 70%;
+    cursor: pointer;
+}
+
+h1
+{
+    font-size: 18px;
+    margin: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
